@@ -110,7 +110,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 	line-height: 1.25em;
 	margin: 0px;
 	background: none;
-	color: #2C2A49;
+	color: #2c2c2c;
 	font-family: 'PT Serif', serif;
 }
 
@@ -382,7 +382,7 @@ img {
 	width: 0;
 	height: 0;
 	border-radius: 50%;
-	background-color: #2C2A49;
+	background-color: #2c2c2c;
 	transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
 	transform: translate(-50%, -50%);
 	z-index: -1;
@@ -459,7 +459,7 @@ a.btn-1.btn-alt:hover {
 /* Header Top */
 
 .header-top-1 {
-	background: #2C2A49;
+	background: #2c2c2c;
 }
 
 @media (max-width:991px) {
@@ -645,7 +645,7 @@ ul.header-top-1-contact-info li a:hover {
 	font-weight: 500;
 	line-height: 30px;
 	text-transform: capitalize;
-	color: #2C2A49;
+	color: #2c2c2c;
 	padding: 3px 0;
 	opacity: 1;
 	-webkit-transition: all 300ms ease;
@@ -667,7 +667,7 @@ ul.header-top-1-contact-info li a:hover {
 	display: none;
 	opacity: 0;
 	visibility: hidden;
-	background-color: #2C2A49;
+	background-color: #2c2c2c;
 	-webkit-transform: translateY(30px);
 	-ms-transform: translateY(30px);
 	transform: translateY(30px);
@@ -746,7 +746,7 @@ ul.header-top-1-contact-info li a:hover {
 	width: 250px;
 	z-index: 100;
 	display: none;
-	background-color: #2C2A49;
+	background-color: #2c2c2c;
 	transition: .5s;
 	-webkit-transform: translateY(30px);
 	-ms-transform: translateY(30px);
@@ -1795,12 +1795,12 @@ ul.header-top-1-contact-info li a:hover {
 }
 
 .banner-section.style-three  .content-box h1 {
-    color: #2C2A49;
+    color: #2c2c2c;
     font-size: 60px;
 }
 
 .banner-section.style-three  .text {
-    color: #2C2A49;
+    color: #2c2c2c;
 	font-size: 18px;
 }
 
@@ -1927,7 +1927,7 @@ ul.banner-social-icon li a:hover {
 /* footer style */
 
 .footer-1-top {
-    background: #262540;
+    background: #252525;
     padding: 41px 0;
 }
 
@@ -1950,7 +1950,7 @@ ul.banner-social-icon li a:hover {
 .footer-1-middle {
     position: relative;
     padding: 100px 0;
-    background: #2C2A49;
+    background: #2c2c2c;
 }
 
 .footer-widget-title h4 {
@@ -1977,7 +1977,7 @@ ul.banner-social-icon li a:hover {
 
 .footer-bottom {
     position: relative;
-    background: #2C2A49;
+    background: #2c2c2c;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
     padding: 31px 0;
@@ -2006,7 +2006,7 @@ ul.contact-widget-1-list li {
 }
 
 ul.contact-widget-1-list i {
-    color: var(--theme-color);
+    color: #ff4e59;
     margin-right: 12px;
     vertical-align: middle;
 }
@@ -2125,7 +2125,7 @@ p.service-1-text {
     top: 0;
     right: 0;
     bottom: 0;
-    background: #2C2A49;
+    background: #2c2c2c;
     z-index: 0;
 	opacity: 0;
 	transition: .5s;
@@ -2237,7 +2237,7 @@ p.service-2-text {
     position: absolute;
     width: 200px;
     height: 200px;
-    background: #2C2A49;
+    background: #2c2c2c;
     box-shadow: 0px 20px 60px 10px rgba(0, 0, 0, 0.1);
     border-radius: 50px;
     text-align: center;
@@ -2257,7 +2257,7 @@ p.service-2-text {
 ul.about-1-list li {
     margin-bottom: 15px;
     position: relative;
-    color: #2C2A49;
+    color: #2c2c2c;
 }
 
 ul.about-1-list li:before {
@@ -2266,7 +2266,7 @@ ul.about-1-list li:before {
     height: 6px;
     left: 0;
     top: -1px;
-    background: #FF7558;
+    background: var(--theme-color);
     box-shadow: 0px 10px 40px 5px rgba(0, 0, 0, 0.1);
     content: '';
     display: inline-block;
@@ -2407,7 +2407,7 @@ h4.fundraise-1-title {
 }
 
 .fundraise-1-price {
-    color: #2C2A49;
+    color: #2c2c2c;
     font-weight: 500;
 }
 
@@ -2507,7 +2507,7 @@ p.why-chooseus-1-text {
 }
 
 .why-chooseus-1-block:nth-child(2) .why-chooseus-1-count {
-    background: #FF7558;
+    background: var(--theme-color);
 }
 
 .why-chooseus-1-block:nth-child(3) .why-chooseus-1-count {
@@ -2822,7 +2822,7 @@ p.testimonial-1-desc {
 }
 
 .testimonial-1-quote-icon {
-    background: #FF7558;
+    background: var(--theme-color);
     box-shadow: 0px 20px 60px 10px rgba(0, 0, 0, 0.07);
     border-radius: 20px;
     position: absolute;
@@ -2889,7 +2889,7 @@ section.blog-1-section {
     padding-top: 14px;
     z-index: 9;
     line-height: 1.4em;
-    color: #2C2A49;
+    color: #2c2c2c;
 }
 
 .blog-1-bottom-content {
@@ -2914,7 +2914,7 @@ section.blog-1-section {
 }
 
 h4.blog-1-title a {
-    color: #2C2A49;
+    color: #2c2c2c;
 }
 
 h4.blog-1-title a:hover {
@@ -3054,7 +3054,7 @@ form textarea:focus {
 
 /* header style three */
 .header-upper-phone-number {
-    color: #2C2A49;
+    color: #2c2c2c;
     font-size: 18px;
     font-weight: 500;
     margin-right: 30px;
@@ -3072,7 +3072,7 @@ form textarea:focus {
 }
 
 .header-upper-phone-number a {
-    color: #2C2A49;
+    color: #2c2c2c;
 }
 
 .header-upper-phone-number a:hover {
@@ -3127,7 +3127,7 @@ form.estimate-form-1-form button {
 
 section.funfact-1-section {
     position: relative;
-    margin-top: -130px;
+    margin-top: 100px;
 }
 
 .funfact-1-block {
@@ -3135,7 +3135,7 @@ section.funfact-1-section {
 }
 
 .funfact-1-wrapper {
-    background: #2C2A49;
+    background: #2c2c2c;
     padding: 95px 15px 70px;
 	position: relative;
 }
@@ -3143,13 +3143,13 @@ section.funfact-1-section {
 h2.funfact-1-number-prefix {
     font-size: 60px;
     position: relative;
-    color: var(--theme-color);
+    color: #ff4e59;
     position: relative;
     top: -2px;
 }
 
 .funfact-1-block h2.funfact-1-number {
-    color: var(--theme-color);
+    color: #ff4e59;
     font-family: 'PT Serif', serif;
     font-size: 60px;
 }
@@ -3231,7 +3231,7 @@ section.testimonial-2-section {
 .testimonial-2-right-column {
     width: 50%;
     text-align: center;
-    background: #2C2A49;
+    background: #2c2c2c;
     padding: 143px 15px;
 }
 
@@ -3659,7 +3659,7 @@ section.event-1-section.white-bg {
 }
 
 h4.event-1-title a {
-    color: #2C2A49;
+    color: #2c2c2c;
 }
 
 h4.event-1-title a:hover {
@@ -3834,37 +3834,40 @@ section.video-1-section.alt  {
 /* services 4 */
 section.service-4-section {
     position: relative;
-    padding: 150px 0;
+    /* padding: 150px 0; */
 }
 
 .service-4-icon {
-    width: 180px;
-    height: 180px;
+  width: 100px;
+    height: 101px;
     background: #FFEAE6;
     border-radius: 100px;
     color: var(--theme-color);
-    font-size: 70px;
+    font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 50px;
-    position: relative;
+    position: absolute;
     transition: .5s;
     z-index: 1;
-	margin-top: 20px;
+    margin-top: 20px;
+    top: -75px;
+    left: 37%;
+
 }
 
-.service-4-icon:after {
+/* .service-4-icon:after {
     position: absolute;
     content: '';
     left: -20px;
     right: -20px;
     top: -20px;
     bottom: -20px;
-    border: 2px dashed var(--theme-color);
+    border: 2px dashed #fabe49;
     border-radius: 50%;
-}
+} */
 
 .service-4-icon:before {
     position: absolute;
@@ -3873,11 +3876,12 @@ section.service-4-section {
     height: 100%;
     left: 0px;
     top: 0px;
+    color: var(--theme-color) !important;
     transform: scale(0,0);
     border-radius: 50%;
     z-index: -1;
     transition: all 500ms ease;
-    background: var(--theme-color);
+    background: #fabe49;
 }
 
 .service-4-block:hover .service-4-icon:before {
@@ -3889,7 +3893,7 @@ section.service-4-section {
 }
 
 h4.service-4-title a {
-    color: #2C2A49;
+    color: wheat;
 }
 
 h4.service-4-title a:hover {
@@ -3898,8 +3902,16 @@ h4.service-4-title a:hover {
 
 .service-4-block {
     margin-bottom: 30px;
+    position: relative;
+    padding-top: 60px; /* Enough space for the icon at the top */
+    
 }
-
+.service-4-block>p{
+    color: #ddd0d0;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
 .service-4-link-btn {
     margin-top: 40px;
 }
@@ -3932,7 +3944,7 @@ section.faq-1-section {
 }
 
 section.funfact-1-section.alt {
-    background: #2C2A49;
+    background: #2c2c2c;
     padding: 95px 15px 70px;
     position: relative;
     margin: 0;
@@ -3955,7 +3967,7 @@ section.funfact-1-section.alt {
 }
 
 .accordion-box.alt-2 .block .acc-btn.active {
-	color: #2C2A49;
+	color: #2c2c2c;
 }
 
 .accordion-box.alt-2 .block .content .text {
@@ -3978,7 +3990,7 @@ section.funfact-1-section.alt {
 	font-size: 20px;
 	cursor: pointer;
 	line-height: 30px;
-	color: #2C2A49;
+	color: #2c2c2c;
 	font-weight: 700;
 	padding: 24px 40px;
 	padding-right: 60px;
@@ -4135,7 +4147,7 @@ li.accordion.active-block {
 }
 
 h4.event-2-title a {
-    color: #2C2A49;
+    color: #2c2c2c;
 }
 
 h4.event-2-title a:hover {
@@ -4225,7 +4237,7 @@ ul.bredcrumb-list li {
 
 ul.bredcrumb-list li,
 ul.bredcrumb-list a {
-    color: #2C2A49;
+    color: #2c2c2c;
     font-size: 17px;
     font-weight: 500;
 }
@@ -4292,7 +4304,7 @@ ul.category-widget-list a {
     border: 1px solid #E5E5E5;
     display: block;
     padding: 15px 30px;
-    color: #2C2A49;
+    color: #2c2c2c;
     font-weight: 500;
 	position: relative;
 }
@@ -4336,7 +4348,7 @@ ul.category-widget-list a:hover {
 }
 
 .contact-widget {
-    background: #2C2A49;
+    background: #2c2c2c;
     box-shadow: 0px 20px 60px rgba(62, 84, 141, 0.1);
     margin-bottom: 40px;
     text-align: center;
@@ -4392,7 +4404,7 @@ h4.service-details-title2 {
 ul.service-details-lsit {
     font-size: 15px;
     font-weight: 500;
-    color: #2C2A49;
+    color: #2c2c2c;
 }
 
 ul.service-details-lsit li {
@@ -4406,7 +4418,7 @@ ul.service-details-lsit li:before {
     left: 0;
     top: 3px;
     background: #FFFFFF;
-    border: 1.5px solid #FF7558;
+    border: 1.5px solid var(--theme-color);
     border-radius: 20px;
     content: '';
     display: inline-block;
@@ -4421,7 +4433,7 @@ ul.service-details-lsit li:after {
     height: 6px;
     left: 5px;
     top: 11px;
-    background: #FF7558;
+    background: var(--theme-color);
     box-shadow: 0px 10px 40px 5px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     transform: rotate(45deg);
@@ -4430,7 +4442,7 @@ ul.service-details-lsit li:after {
 .service-details-icon-box-icon {
     width: 80px;
     height: 80px;
-    background: #FF7558;
+    background: var(--theme-color);
     border-radius: 140px;
     text-align: center;
     line-height: 87px;
@@ -4602,7 +4614,7 @@ h4.event-info-widget-title {
 .event-info-widget-icon-box-icon {
     width: 50px;
     height: 50px;
-    background: #FF7558;
+    background: var(--theme-color);
     border-radius: 140px;
     text-align: center;
     line-height: 53px;
@@ -4664,7 +4676,7 @@ ul.single-team-info-list li {
 
 ul.single-team-info-list span {
     font-family: 'PT Serif', serif;
-    color: #2C2A49;
+    color: #2c2c2c;
     font-weight: 700;
 }
 
@@ -4684,7 +4696,7 @@ ul.single-team-info-list2 h5:before {
     left: 0;
     top: 3px;
     background: #FFFFFF;
-    border: 1.5px solid #FF7558;
+    border: 1.5px solid var(--theme-color);
     border-radius: 20px;
     content: '';
     display: inline-block;
@@ -4699,7 +4711,7 @@ ul.single-team-info-list2 h5:after {
     height: 6px;
     left: 5px;
     top: 12px;
-    background: #FF7558;
+    background: var(--theme-color);
     box-shadow: 0px 10px 40px 5px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     transform: rotate(45deg);
@@ -4731,7 +4743,7 @@ ul.single-team-info-list2 h5:after {
 }
 
 .form-alt-2 label {
-    color: #2C2A49;
+    color: #2c2c2c;
     margin-bottom: 5px;
 }
 
@@ -4818,7 +4830,7 @@ ul.single-team-info-list2 h5:after {
     margin-right: 6px;
     border-radius: 50%;
     margin-bottom: 15px;
-    color: #2C2A49;
+    color: #2c2c2c;
 }
 
 .pproject-block-1-link-btn a:hover {
@@ -4978,7 +4990,7 @@ cite {
     font-family: 'PT Serif';
     font-style: normal;
     font-weight: 700;
-    color: #2C2A49;
+    color: #2c2c2c;
     position: relative;
     margin-top: 10px;
 }
@@ -4988,7 +5000,7 @@ cite:before {
     height: 3px;
     left: 0;
     top: -4px;
-    background: #FF7558;
+    background: var(--theme-color);
     display: inline-block;
     content: '';
     margin-right: 15px;
@@ -4999,7 +5011,7 @@ cite:before {
 ul.list-style-one li {
     margin-bottom: 15px;
     position: relative;
-    color: #2C2A49;
+    color: #2c2c2c;
 	padding-left: 20px;
 }
 
@@ -5009,7 +5021,7 @@ ul.list-style-one li:before {
     height: 6px;
     left: 0;
     top: 10px;
-    background: #FF7558;
+    background: var(--theme-color);
     box-shadow: 0px 10px 40px 5px rgba(0, 0, 0, 0.1);
     content: '';
     display: inline-block;
@@ -5364,7 +5376,7 @@ section.about-3-section {
 }
 
 .about-3-tab-title {
-    color: #2C2A49;
+    color: #2c2c2c;
     font-size: 18px;
     font-weight: 600;
     padding: 0 20px;
@@ -5387,7 +5399,7 @@ p.aboout-3-desc {
 ul.service-6-list li {
     position: relative;
     font-weight: 500;
-    color: #2C2A49;
+    color: #2c2c2c;
     margin-bottom: 10px;
     padding-left: 30px;
 }
@@ -5399,7 +5411,7 @@ ul.service-6-list li:before {
     height: 2px;
     left: 0;
     bottom: 9px;
-    background: #FF7558;
+    background: var(--theme-color);
     transform: rotate(30deg);
 }
 
@@ -5410,7 +5422,7 @@ ul.service-6-list li:after {
     height: 2px;
     left: 3px;
     bottom: 13px;
-    background: #FF7558;
+    background: var(--theme-color);
     transform: rotate(-60deg);
 }
 
@@ -5439,7 +5451,7 @@ ul.service-6-list li:after {
 .service-6-tab-title {
     font-size: 20px;
     font-weight: 500;
-    color: #2C2A49;
+    color: #2c2c2c;
     padding: 46px
 0;
     position: relative;
@@ -5457,7 +5469,7 @@ ul.service-6-list li:after {
     bottom: -9px;
     width: 21px;
     height: 9px;
-    background: #FF7558;
+    background: var(--theme-color);
     transform: matrix(1, 0, 0, -1, 0, 0);
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     opacity: 0;
@@ -5487,7 +5499,7 @@ ul.service-6-list li:after {
 }
 
 section.funfact-1-section.alt2 {
-    background: #2C2A49;
+    background: #2c2c2c;
     padding: 140px 0 110px;
     position: relative;
     margin: 0;
@@ -5553,7 +5565,7 @@ p.funfact-1-title {
 }
 
 .testimonial-1-block.alt p.testimonial-1-review-desc {
-    color: #2C2A49;
+    color: #2c2c2c;
     font-weight: 500;
     margin-top: -25px;
     margin-bottom: 30px;
@@ -5624,7 +5636,7 @@ section.faq-2-section .auto-container.p_relative {
 }
 
 .accordion-box .block .acc-btn.active {
-    color: #2C2A49;
+    color: #2c2c2c;
 }
 
 .accordion-box.alt .block.active-block, li.accordion.active-block {
@@ -5661,3 +5673,6 @@ section.faq-2-section .auto-container.p_relative {
 
 
 
+.Offers{
+    border-radius: 15px;
+}
