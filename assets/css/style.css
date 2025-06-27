@@ -5716,3 +5716,10 @@ section.faq-2-section .auto-container.p_relative {
 .Offers{
     border-radius: 15px;
 }
+.carousel-control-prev ,.carousel-control-next{
+       background-color: #2C2A49;
+    /* fill: red; */
+    height: 55px;
+    width: 25px;
+    margin-top: 22%;
+}
