@@ -654,3 +654,13 @@
 	});	
 
 })(window.jQuery);
+
+
+
+// 
+ const paragraphs = document.querySelectorAll('p.event-info-widget-icon-box-desc');
+  paragraphs.forEach(p => {
+    if (p.textContent.trim().toLowerCase() === 'active') {
+      p.style.color = 'green';
+    }
+  });
